@@ -14,7 +14,7 @@ Three public datasets of single-cell human B cell repertoires were used to train
 ## Code, computational environment, and intermediate data availability
 For reproducibility, the code used to process data, train classical models, run experiments, and generate figures is available in this repository under a CC BY 4.0 license.
 
-Due to size limits, intermediate files with the positive pairs from Hoehn et al. (2021) and Lopes de Assis et al. (2023) are made available in `intermediate-files`. Data processed from Jaffe et al. (2022) as well as any other materials of interest are available upon request. 
+Due to size limits, processed data files, as well as any other materials of interest are available upon request. 
 
 All scripts were written in R (v4.5.3) or Python (v3.9.25) and executed as Slurm jobs on Dartmouth's HPC cluster ‘Discovery’. Depending on the task, 4–16 CPU cores were used, and data was processed parallely where possible.
 
