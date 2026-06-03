@@ -16,7 +16,7 @@ For reproducibility, the code used to process data, train classical models, run 
 
 Due to size limits, intermediate files with the positive pairs from Hoehn et al. (2021) and Lopes de Assis et al. (2023) are made available in `intermediate-files`. Data processed from Jaffe et al. (2022) as well as any other materials of interest are available upon request. 
 
-All scripts were written in R (v4.5.3) or Python (v3.9.25) and executed as Slurm (Yoo et al., 2003) jobs on Dartmouth's HPC cluster ‘Discovery’. Depending on the task, 4–16 CPU cores were used, and data was processed parallely where possible.
+All scripts were written in R (v4.5.3) or Python (v3.9.25) and executed as Slurm jobs on Dartmouth's HPC cluster ‘Discovery’. Depending on the task, 4–16 CPU cores were used, and data was processed parallely where possible.
 
 ## Thesis abstract 
 Antibody heavy and light chain (H/L) pairing is fundamental to antigen recognition and stability. While single-cell sequencing preserves native pairing information, widely used bulk repertoire and spatial transcriptomics platforms do not, motivating the need for efficient machine learning (ML) methods to infer H/L pairing. Training a binary classifier for this task faces the methodological challenge of a lack of true biological negatives, since natural selection eliminates B cells with incompatible H/L pairs.
