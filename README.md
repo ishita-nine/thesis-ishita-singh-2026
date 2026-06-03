@@ -11,7 +11,7 @@ Co-advisors Soroush Vosoughi and Kenneth Hoehn**
 ## Source data
 Three public datasets of single-cell human B cell repertoires were used to train and test models in this thesis. The data from Jaffe et al. (2022) was downloaded from Figshare (doi:10.25452/figshare.plus.20338177). The data from Hoehn et al. (2021) and Lopes de Assis et al. (2023) are available on NCBI's Gene Expression Omnibus under accession numbers GSE164381 and GSE219098, respectively. T
 
-## Code, computational environment, and intermediate data availability
+## Code and computational environment
 For reproducibility, the code used to process data, train classical models, run experiments, and generate figures is available in this repository under a CC BY 4.0 license.
 
 Due to size limits, processed data files, as well as any other materials of interest are available upon request. 
